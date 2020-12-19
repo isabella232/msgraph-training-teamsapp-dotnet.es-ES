@@ -1,0 +1,7 @@
+<!-- markdownlint-disable MD002 MD041 -->
+
+<span data-ttu-id="c7b14-101">Ha completado la aplicación de Microsoft Teams con el tutorial de Microsoft Graph.</span><span class="sxs-lookup"><span data-stu-id="c7b14-101">You've completed the Microsoft Teams app with Microsoft Graph tutorial.</span></span> <span data-ttu-id="c7b14-102">Ahora que tiene una aplicación de trabajo que llama a Microsoft Graph, puede experimentar y agregar nuevas características.</span><span class="sxs-lookup"><span data-stu-id="c7b14-102">Now that you have a working app that calls Microsoft Graph, you can experiment and add new features.</span></span> <span data-ttu-id="c7b14-103">Visite la [información general de Microsoft Graph](/graph/overview) para ver todos los datos a los que puede tener acceso con Microsoft Graph.</span><span class="sxs-lookup"><span data-stu-id="c7b14-103">Visit the [Overview of Microsoft Graph](/graph/overview) to see all of the data you can access with Microsoft Graph.</span></span>
+
+## <a name="feedback"></a><span data-ttu-id="c7b14-104">Comentarios</span><span class="sxs-lookup"><span data-stu-id="c7b14-104">Feedback</span></span>
+
+<span data-ttu-id="c7b14-105">Envíe sus comentarios sobre este tutorial en el [repositorio de github](https://github.com/microsoftgraph/msgraph-training-teamsapp-dotnet).</span><span class="sxs-lookup"><span data-stu-id="c7b14-105">Please provide any feedback on this tutorial in the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-teamsapp-dotnet).</span></span>

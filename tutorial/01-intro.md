@@ -1,0 +1,25 @@
+<!-- markdownlint-disable MD002 MD041 -->
+
+<span data-ttu-id="b1917-101">Este tutorial le enseña a crear una aplicación de Microsoft Teams con ASP.NET Core y la API de Microsoft Graph para recuperar la información de calendario de un usuario.</span><span class="sxs-lookup"><span data-stu-id="b1917-101">This tutorial teaches you how to build a Microsoft Teams app using ASP.NET Core and the Microsoft Graph API to retrieve calendar information for a user.</span></span>
+
+> [!TIP]
+> <span data-ttu-id="b1917-102">Si prefiere descargar solo el tutorial completo, puede descargar o clonar el repositorio de [GitHub](https://github.com/microsoftgraph/msgraph-training-teamsapp-dotnet).</span><span class="sxs-lookup"><span data-stu-id="b1917-102">If you prefer to just download the completed tutorial, you can download or clone the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-teamsapp-dotnet).</span></span> <span data-ttu-id="b1917-103">Consulte el archivo Léame de la carpeta **Demo** para obtener instrucciones sobre cómo configurar la aplicación con un identificador de aplicación y un secreto.</span><span class="sxs-lookup"><span data-stu-id="b1917-103">See the README file in the **demo** folder for instructions on configuring the app with an app ID and secret.</span></span>
+
+## <a name="prerequisites"></a><span data-ttu-id="b1917-104">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="b1917-104">Prerequisites</span></span>
+
+<span data-ttu-id="b1917-105">Antes de iniciar este tutorial, debe tener instalado lo siguiente en el equipo de desarrollo.</span><span class="sxs-lookup"><span data-stu-id="b1917-105">Before you start this tutorial, you should have the following installed on your development machine.</span></span>
+
+- <span data-ttu-id="b1917-106">[.Net Core SDK](https://dotnet.microsoft.com/download).</span><span class="sxs-lookup"><span data-stu-id="b1917-106">[.NET Core SDK](https://dotnet.microsoft.com/download).</span></span>
+- [<span data-ttu-id="b1917-107">ngrok</span><span class="sxs-lookup"><span data-stu-id="b1917-107">ngrok</span></span>](https://ngrok.com/)
+
+<span data-ttu-id="b1917-108">También debe tener una cuenta de Microsoft personal con un buzón de correo en Outlook.com o una cuenta profesional o educativa de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="b1917-108">You should also have either a personal Microsoft account with a mailbox on Outlook.com, or a Microsoft work or school account.</span></span> <span data-ttu-id="b1917-109">Si no tiene una cuenta de Microsoft, hay un par de opciones para obtener una cuenta gratuita:</span><span class="sxs-lookup"><span data-stu-id="b1917-109">If you don't have a Microsoft account, there are a couple of options to get a free account:</span></span>
+
+- <span data-ttu-id="b1917-110">Puede [registrarse para obtener una nueva cuenta Microsoft personal](https://signup.live.com/signup?wa=wsignin1.0&rpsnv=12&ct=1454618383&rver=6.4.6456.0&wp=MBI_SSL_SHARED&wreply=https://mail.live.com/default.aspx&id=64855&cbcxt=mai&bk=1454618383&uiflavor=web&uaid=b213a65b4fdc484382b6622b3ecaa547&mkt=E-US&lc=1033&lic=1).</span><span class="sxs-lookup"><span data-stu-id="b1917-110">You can [sign up for a new personal Microsoft account](https://signup.live.com/signup?wa=wsignin1.0&rpsnv=12&ct=1454618383&rver=6.4.6456.0&wp=MBI_SSL_SHARED&wreply=https://mail.live.com/default.aspx&id=64855&cbcxt=mai&bk=1454618383&uiflavor=web&uaid=b213a65b4fdc484382b6622b3ecaa547&mkt=E-US&lc=1033&lic=1).</span></span>
+- <span data-ttu-id="b1917-111">Puede [registrarse para el programa de desarrolladores de office 365](https://developer.microsoft.com/office/dev-program) para obtener una suscripción gratuita a Office 365.</span><span class="sxs-lookup"><span data-stu-id="b1917-111">You can [sign up for the Office 365 Developer Program](https://developer.microsoft.com/office/dev-program) to get a free Office 365 subscription.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="b1917-112">Este tutorial se ha escrito con .NET Core SDK versión 3.1.402.</span><span class="sxs-lookup"><span data-stu-id="b1917-112">This tutorial was written with .NET Core SDK version 3.1.402.</span></span> <span data-ttu-id="b1917-113">Los pasos de esta guía pueden funcionar con otras versiones, pero no se han probado.</span><span class="sxs-lookup"><span data-stu-id="b1917-113">The steps in this guide may work with other versions, but that has not been tested.</span></span>
+
+## <a name="feedback"></a><span data-ttu-id="b1917-114">Comentarios</span><span class="sxs-lookup"><span data-stu-id="b1917-114">Feedback</span></span>
+
+<span data-ttu-id="b1917-115">Envíe sus comentarios sobre este tutorial en el [repositorio de github](https://github.com/microsoftgraph/msgraph-training-teamsapp-dotnet).</span><span class="sxs-lookup"><span data-stu-id="b1917-115">Please provide any feedback on this tutorial in the [GitHub repository](https://github.com/microsoftgraph/msgraph-training-teamsapp-dotnet).</span></span>
